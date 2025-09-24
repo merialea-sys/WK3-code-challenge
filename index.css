@@ -1,5 +1,7 @@
 *{
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 .container{
@@ -30,7 +32,7 @@
 #films{
     font-size: medium;
     text-transform: uppercase;
-    width: 290px;
+    width: 400px;
     padding: 20px;
     padding-left: 0;
     overflow-y: auto;    
@@ -45,6 +47,7 @@
     padding: 8px;
     cursor: pointer;
     transition: background 0.3s;
+    border-bottom: 1px solid #ccc;
 }
 
 #film-list li:hover{
@@ -95,6 +98,33 @@
     margin-bottom: 15px;
     font-weight: bold;
     color: #222;
+}
+
+#tickets{
+    margin-bottom: 15px;
+    color: green;
+}
+
+#buy-tickets {
+    background: #ff5722;
+    color: white;
+    border: none;
+    padding: 12px 18px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: transform 0.3s ease;
+}
+
+#buy-tickets:hover{
+    background:black;
+}
+
+.delete-btn{
+    background: darkred;
+    color: #f4f4f4;
+    border-radius: 3px;
+    padding:2px px;
 }
 
 
